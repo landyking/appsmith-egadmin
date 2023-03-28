@@ -1,11 +1,15 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Setup",
       "isDefault": true
     },
     {
-      "id": "Page2",
+      "id": "Management",
+      "isDefault": false
+    },
+    {
+      "id": "testcase",
       "isDefault": false
     }
   ],

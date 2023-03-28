@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "globalSettings",
+    "pageId": "Management",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Management_globalSettings",
+  "deleted": false,
+  "gitSyncId": "641fbcfc51a157659608b3ed_641fbe1a51a157659608b3f8"
+}
