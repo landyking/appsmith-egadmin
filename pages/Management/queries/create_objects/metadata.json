@@ -27,7 +27,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{Input1.text}}",
+      "body": "{{createIframe.message}}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -50,7 +50,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Input1.text",
+      "createIframe.message",
       "globalSettings.apiBaseURL()"
     ],
     "userSetOnLoad": false,

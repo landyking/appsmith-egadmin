@@ -1,6 +1,6 @@
 {
   "unpublishedCollection": {
-    "name": "globalSettings",
+    "name": "YamlEditor",
     "pageId": "Management",
     "pluginId": "js-plugin",
     "pluginType": "JS",
@@ -9,7 +9,7 @@
     "variables": [],
     "userPermissions": []
   },
-  "id": "Management_globalSettings",
+  "id": "Management_YamlEditor",
   "deleted": false,
-  "gitSyncId": "641fbcfc51a157659608b3ed_641fbe1a51a157659608b3f8"
+  "gitSyncId": "641fbcfc51a157659608b3ed_64259c6ccf232963133b989f"
 }

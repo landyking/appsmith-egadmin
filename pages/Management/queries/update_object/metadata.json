@@ -27,7 +27,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{contentEdit.text}}",
+      "body": "{{editIframe.message}}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "selfReferencingDataPaths": [],
@@ -54,7 +54,7 @@
     "messages": [],
     "jsonPathKeys": [
       "Select1.selectedOptionValue",
-      "contentEdit.text",
+      "editIframe.message",
       "globalSettings.apiBaseURL()"
     ],
     "userSetOnLoad": false,

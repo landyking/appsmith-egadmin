@@ -1,11 +1,10 @@
 export default {
-	myVar2: {},
 	checkBaseURL:async ()=>{
 		if(!appsmith.store.baseURL){
 			await navigateTo("Setup")
 		}
 	},
-	reloadDataAndResetTable:async ()=>{
+	reloadDataAndResetTable:async (clearEditor=false)=>{
 		get_single_object.clear()
 		const arr=[];
 		arr.push(all_object_kinds.run())
@@ -13,6 +12,9 @@ export default {
 		await Promise.all(arr)
 		resetWidget("kinds_table",true)
 		resetWidget("Select1",true)
+		if(clearEditor){
+			YamlEditor.clear()
+		}
 	},
 	loadKindAndCount:()=>{
 		const kindAndCount=all_object_kinds.data.map(kind=>{
@@ -38,8 +40,10 @@ export default {
 		const selected=Select1.selectedOptionValue||""
 		if(!_.isEmpty(selected)){
 			const data=await get_single_object.run()
+			YamlEditor.setContent(data)
 			return data
 		}else{
+			YamlEditor.clear()
 			return ""
 		}
 	}

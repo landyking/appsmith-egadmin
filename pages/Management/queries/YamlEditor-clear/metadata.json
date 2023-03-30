@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "reloadDataAndResetTable",
-    "fullyQualifiedName": "globalSettings.reloadDataAndResetTable",
+    "name": "clear",
+    "fullyQualifiedName": "YamlEditor.clear",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,7 +14,7 @@
       "userPermissions": []
     },
     "pageId": "Management",
-    "collectionId": "Management_globalSettings",
+    "collectionId": "Management_YamlEditor",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -39,7 +39,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Management_globalSettings.reloadDataAndResetTable",
+  "id": "Management_YamlEditor.clear",
   "deleted": false,
-  "gitSyncId": "641fbcfc51a157659608b3ed_64230dd1e074f115f4ad5d36"
+  "gitSyncId": "641fbcfc51a157659608b3ed_64259cf1cf232963133b98a6"
 }

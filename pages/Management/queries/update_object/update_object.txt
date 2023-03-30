@@ -1,1 +1,1 @@
-{{contentEdit.text}}
+{{editIframe.message}}
